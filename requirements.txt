@@ -1,3 +1,4 @@
+# to install using poetry: "poetry add $(cat requirements.txt)"
 sqlalchemy<2
 flask
 psycopg2-binary

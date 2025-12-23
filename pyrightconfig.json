@@ -6,6 +6,7 @@
   // "reportUnknownArgumentType": "none",
   // "reportUnknownVariableType": "none",
   // "reportUnknownParameterType": "none",
+
   "ignore": [
     "**/__pycache__",
     "**/.mypy_cache",
