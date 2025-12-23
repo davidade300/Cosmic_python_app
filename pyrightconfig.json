@@ -1,0 +1,15 @@
+{
+  "include": ["src"],
+  "typeCheckingMode": "standard",
+  "reportMissingImports": "error",
+  "reportUnknownMemberType": "none",
+  "reportUnknownArgumentType": "none",
+  "reportUnknownVariableType": "none",
+  "reportUnknownParameterType": "none",
+  "ignore": [
+    "**/__pycache__",
+    "**/.mypy_cache"
+  ],
+  "reportMissingModuleSource": false,
+  
+}

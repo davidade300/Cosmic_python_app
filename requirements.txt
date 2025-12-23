@@ -1,0 +1,11 @@
+sqlalchemy<2
+flask
+psycopg2-binary
+redis
+
+pytest
+pytest-icdiff
+mypy
+pylint
+requests
+tenacity
