@@ -3,7 +3,10 @@ from datetime import date
 from typing import List
 
 
-@dataclass(frozen=True)
+@dataclass(unsafe_hash=True)
+# if there's any error linked to this class, try changing
+# unsafe_hash for frozen(it was the original code, but it breaks tests
+# due to slots issues with sqlalchemy)
 class OrderLine:
     orderid: str
     sku: str
