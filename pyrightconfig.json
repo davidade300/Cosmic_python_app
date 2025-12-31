@@ -1,12 +1,8 @@
 {
-    // "include": ["src"],
     "typeCheckingMode": "standard",
     "reportMissingImports": "error",
-    "reportUnknownArgumentType": "hint",
+    "reportUnknownArgumentType": "none",
     "reportArgumentType": "information",
-    // "reportUnknownMemberType": "none",
-    // "reportUnknownVariableType": "none",
-    // "reportUnknownParameterType": "none",
 
     "ignore": ["**/__pycache__", "**/.mypy_cache", "**/.pytest_cache"],
     "reportMissingModuleSource": false
