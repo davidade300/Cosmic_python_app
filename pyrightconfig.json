@@ -2,7 +2,8 @@
     "typeCheckingMode": "standard",
     "reportMissingImports": "error",
     "reportUnknownArgumentType": "none",
-    "reportArgumentType": "information",
+    "reportArgumentType": "hint",
+    "reportAttributeAccessIssue": "hint",
 
     "ignore": ["**/__pycache__", "**/.mypy_cache", "**/.pytest_cache"],
     "reportMissingModuleSource": false

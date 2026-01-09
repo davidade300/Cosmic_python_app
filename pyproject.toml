@@ -26,4 +26,5 @@ packages = [{ include = "cosmic_python", from = "src" }]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
-
+[tool.ruff]
+lint.ignore = ["PLR2004"]
