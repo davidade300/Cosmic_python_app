@@ -9,7 +9,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import mapper, relationship
 
-from . import model
+from cosmic_python.domain import model
 
 metadata = MetaData()
 

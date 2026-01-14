@@ -1,6 +1,6 @@
 from datetime import date
 
-from cosmic_python.model import Batch, OrderLine
+from cosmic_python.domain.model import Batch, OrderLine
 
 
 def test_allocating_to_a_batch_reduces_the_available_quantity():

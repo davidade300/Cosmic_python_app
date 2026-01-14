@@ -1,6 +1,8 @@
 import pytest
 
-from cosmic_python import model, repository, services
+from cosmic_python.service_layer import services
+from cosmic_python.domain import model
+from cosmic_python.adapters import repository
 
 
 class FakeRepository(repository.AbstractRepository):

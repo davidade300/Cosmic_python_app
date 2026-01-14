@@ -7,8 +7,8 @@ import requests
 from sqlalchemy import create_engine
 from sqlalchemy.orm import clear_mappers, sessionmaker
 
-import config
-from cosmic_python.orm import metadata, start_mappers
+from cosmic_python import config
+from cosmic_python.adapters.orm import metadata, start_mappers
 
 
 @pytest.fixture

@@ -1,6 +1,6 @@
 import abc
 
-from . import model
+from cosmic_python.domain import model
 
 
 class AbstractRepository(abc.ABC):

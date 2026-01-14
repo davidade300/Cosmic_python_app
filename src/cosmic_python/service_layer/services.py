@@ -1,7 +1,6 @@
-from cosmic_python import model
-from cosmic_python.model import Batch, OrderLine
-from cosmic_python.orm import batches
-from cosmic_python.repository import AbstractRepository
+from cosmic_python.domain import model
+from cosmic_python.domain.model import OrderLine
+from cosmic_python.adapters.repository import AbstractRepository
 
 
 class InvalidSku(Exception):

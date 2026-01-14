@@ -2,7 +2,7 @@ from datetime import date, timedelta
 
 import pytest
 
-from cosmic_python.model import Batch, OrderLine, OutOfStock, allocate
+from cosmic_python.domain.model import Batch, OrderLine, OutOfStock, allocate
 
 today = date.today()
 tomorrow = today + timedelta(days=1)

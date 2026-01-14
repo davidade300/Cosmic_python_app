@@ -1,4 +1,5 @@
-from cosmic_python import model, repository
+from cosmic_python.domain import model
+from cosmic_python.adapters import repository
 
 
 def test_repository_can_save_a_batch(session):

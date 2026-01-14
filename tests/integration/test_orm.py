@@ -1,6 +1,6 @@
 from datetime import date
 
-from cosmic_python import model
+from cosmic_python.domain import model
 
 
 def test_orderline_mapper_can_load_lines(session):
